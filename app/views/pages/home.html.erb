@@ -1,4 +1,6 @@
-Hello <% if current_user != nil %> 
+
+
+Hello, <% if current_user != nil %> 
                    welcome : <%= current_user.first_name %>
                 <% else %>
                     <p>You are not connected</p>
